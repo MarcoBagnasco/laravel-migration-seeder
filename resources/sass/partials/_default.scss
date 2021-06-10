@@ -1,0 +1,16 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-image: url('../images/mountain.jpg');
+}
+img{
+    max-height: 100%;
+}

@@ -1,3 +1,3 @@
 <header class="main-header">
-    <h1>AfterBool Travels</h1>
+    <h1 class="header-title">After<span>Bool</span> Travels</h1>
 </header>

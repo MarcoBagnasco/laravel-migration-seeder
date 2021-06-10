@@ -1,0 +1,64 @@
+/********** APP MAIN STYLE **********/
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-image: url("../images/mountain.jpg");
+}
+
+img {
+  max-height: 100%;
+}
+
+/* MAIN HEADER */
+.main-header .header-title {
+  margin-bottom: 20px;
+  color: #011332;
+  font-size: 3rem;
+}
+.main-header .header-title span {
+  color: #0dd977;
+}
+
+/* HOME MAIN */
+.home-main .welcome {
+  width: 50vw;
+  height: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+.home-main .welcome .welcome-title {
+  margin-bottom: 40px;
+  font-size: 4rem;
+}
+.home-main .welcome img {
+  height: 60%;
+  margin-bottom: 80px;
+}
+.home-main .welcome a {
+  color: inherit;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.home-main .welcome a .button {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #007bff;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+}
+.home-main .welcome a .button:hover {
+  background-color: #073e79;
+}

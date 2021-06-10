@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Travel;
+
 
 class TravelController extends Controller
 {
@@ -10,6 +12,8 @@ class TravelController extends Controller
      * TRAVELS
      */
     public function index(){
-        return view('travels');
+        $travels = Travel::simplePaginate(10);
+
+        return view('travels', compact('travels'));
     }
 }

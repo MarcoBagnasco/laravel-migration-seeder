@@ -2,6 +2,6 @@
 
 @section('content')
     <section class="home-main">
-        ciao
+        <a href="{{ route('travels') }}">View Offers</a>
     </section>
 @endsection

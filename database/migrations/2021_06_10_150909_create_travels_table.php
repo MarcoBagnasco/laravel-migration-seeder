@@ -18,7 +18,7 @@ class CreateTravelsTable extends Migration
             $table->string('main_location', 50);
             $table->double('price', 6, 2)->unsigned();
             $table->string('duration', 50);
-            $table->dateTime('departure');
+            $table->date('departure');
             $table->boolean('available')->default(1);
             $table->timestamps();
         });

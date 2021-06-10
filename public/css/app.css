@@ -8,7 +8,7 @@
 }
 
 body {
-  padding: 10px;
+  padding: 30px;
   font-size: 20px;
   text-align: center;
   background-image: url("../images/mountain.jpg");
@@ -16,6 +16,59 @@ body {
 
 img {
   max-height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* UTILITIES */
+/* Layout */
+.container {
+  display: inline-block;
+  height: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+/* Buttons */
+.link-button {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.link-button .button {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #007bff;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+}
+.link-button .button:hover {
+  background-color: #073e79;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+.pagination .page-item {
+  margin: 0 10px;
+}
+.pagination .page-item a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.pagination .page-item.disabled span {
+  color: #888;
 }
 
 /* MAIN HEADER */
@@ -30,35 +83,36 @@ img {
 
 /* HOME MAIN */
 .home-main .welcome {
-  width: 50vw;
-  height: 750px;
-  margin: 0 auto;
-  padding: 20px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 20px;
+  margin: 0 150px;
 }
 .home-main .welcome .welcome-title {
   margin-bottom: 40px;
   font-size: 4rem;
 }
 .home-main .welcome img {
-  height: 60%;
+  height: 300px;
   margin-bottom: 80px;
 }
-.home-main .welcome a {
-  color: inherit;
-  font-size: 1.5rem;
-  text-decoration: none;
+
+/* TRAVELS MAIN */
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 20px 90px;
 }
-.home-main .welcome a .button {
-  width: 300px;
-  margin: 0 auto;
-  padding: 10px;
-  background-color: #007bff;
-  border-radius: 10px;
-  transition: background-color 0.2s;
+.cards-wrapper .card {
+  width: calc(20% - 20px);
+  margin: 10px;
+  padding: 15px 25px;
+  background-color: #0dd97665;
+  border-radius: 15px;
 }
-.home-main .welcome a .button:hover {
-  background-color: #073e79;
+.cards-wrapper .card .price {
+  color: #007bff;
+  background-color: #0dd977;
+  border-radius: 50%;
+}
+.cards-wrapper .card ul {
+  text-align: left;
 }

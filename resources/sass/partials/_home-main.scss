@@ -1,13 +1,7 @@
 /* HOME MAIN */
 .home-main{
     .welcome{
-        width: 50vw;
-        height: 750px;
-        margin: 0 auto;
-        padding: 20px;
-        color: #fff;
-        background-color: rgba(0, 0, 0, .6);
-        border-radius: 20px;
+        margin: 0 150px;
 
         .welcome-title{
             margin-bottom: 40px;
@@ -15,28 +9,8 @@
         }
 
         img{
-            height: 60%;
+            height: 300px;
             margin-bottom: 80px;
-        }
-        
-        a{
-            color: inherit;
-            font-size: 1.5rem;
-            text-decoration: none;
-
-            .button{
-                width: 300px;
-                margin: 0 auto;
-                padding: 10px;
-                background-color: #007bff;
-                border-radius: 10px;
-                transition: background-color .2s;
-    
-                &:hover{
-                    background-color: #073e79;
-                }
-    
-            }
         }
     }
 }

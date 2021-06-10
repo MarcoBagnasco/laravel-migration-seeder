@@ -1,0 +1,24 @@
+/* TRAVELS MAIN */
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 20px 90px;
+
+    .card{
+        width: calc(20% - 20px);
+        margin: 10px;
+        padding: 15px 25px;
+        background-color: #0dd97665;
+        border-radius: 15px;
+
+        .price{
+            color: #007bff;
+            background-color: #0dd977;
+            border-radius: 50%;
+        }
+        ul{
+            text-align: left;
+        }
+    }
+}
